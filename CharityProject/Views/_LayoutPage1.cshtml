@@ -79,7 +79,7 @@
                             <!-- Logo -->
                             <div class="col-xl-2 col-lg-2">
                                 <div class="logo">
-                                    <a href="index.html"><img src="~/assets/img/logo/logo.png" alt=""></a>
+                                    <a href="/Home/Index"><img src="~/assets/img/logo/logo.png" alt=""></a>
                                 </div>
                             </div>
                             <div class="col-xl-10 col-lg-10">
@@ -91,23 +91,22 @@
                                                 <li>@Html.ActionLink("Home", "Index", "Home")</li>
                                                 <li>@Html.ActionLink("About", "About", "Home")</li>
                                                 <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-                                                <li><a href="program.html">latest causes</a></li>
-                                                <li><a href="events.html">social events </a></li>
-                                                <li>
+                                                <li>@Html.ActionLink("Events", "Events", "Home")</li>
+                                                @*<li>
                                                     <a href="blog.html">Blog</a>
                                                     <ul class="submenu">
                                                         <li><a href="blog.html">Blog</a></li>
                                                         <li><a href="blog_details.html">Blog Details</a></li>
                                                         <li><a href="elements.html">Element</a></li>
                                                     </ul>
-                                                </li>
+                                                </li>*@
                                                 
                                             </ul>
                                         </nav>
                                     </div>
                                     <!-- Header-btn -->
                                     <div class="header-right-btn d-none d-lg-block ml-20">
-                                        <a href="contact.html" class="btn header-btn">Donate</a>
+                                        <a href="/Home/Contact" class="btn header-btn">Donate</a>
                                     </div>
                                 </div>
                             </div>
